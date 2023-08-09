@@ -120,11 +120,11 @@ a {
               </v-img>
             </v-card-item>
             <v-card-actions>
-              <v-img class="ms-5" src="./assets/docker.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/spring_boot.png" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/java.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/vue-icon.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/javascript.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./src/assets/docker.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./src/assets/spring_boot.png" max-width="35"></v-img>
+              <v-img class="ms-5" src="./src/assets/java.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./src/assets/vue-icon.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./src/assets/javascript.png" alt="Docker" max-width="35"></v-img>
             </v-card-actions>
           </v-card>
 
@@ -142,11 +142,11 @@ a {
               </v-img>
             </v-card-item>
             <v-card-actions>
-              <v-img class="ms-5" src="./assets/nodejs.png" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/express.png" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/MongoDBAtlas.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/vue-icon.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/javascript.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./src/assets/nodejs.png" max-width="35"></v-img>
+              <v-img class="ms-5" src="./src/assets/express.png" max-width="35"></v-img>
+              <v-img class="ms-5" src="./src/assets/MongoDBAtlas.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./src/assets/vue-icon.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./src/assets/javascript.png" alt="Docker" max-width="35"></v-img>
             </v-card-actions>
           </v-card>
 
@@ -161,9 +161,9 @@ a {
 
             </v-card-item>
             <v-card-actions>
-              <v-img class="ms-5" src="./assets/scrapy.png" max-width="55" alt="Scrapy"></v-img>
-              <v-img class="ms-5" src="./assets/anaconda-py.png" max-width="35" alt="Anaconda"></v-img>
-              <v-img class="ms-5" src="./assets/python.png" alt="Python" max-width="35"></v-img>
+              <v-img class="ms-5" src="./src/assets/scrapy.png" max-width="55" alt="Scrapy"></v-img>
+              <v-img class="ms-5" src="./src/assets/anaconda-py.png" max-width="35" alt="Anaconda"></v-img>
+              <v-img class="ms-5" src="./src/assets/python.png" alt="Python" max-width="35"></v-img>
             </v-card-actions>
           </v-card>
         </div>
