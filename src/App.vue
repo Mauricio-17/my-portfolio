@@ -49,9 +49,82 @@ a {
             </v-card-item>
             <v-card-item>
               <ul>
-                <li v-for="(item, index) in used" :key="index" class="d-flex align-center flex-row mt-4">
-                  <v-img class="me-3" max-width="40" :src="item.icon"></v-img>
-                  <h3 class="paragraph">{{ item.text }}</h3>
+                <li class="d-flex flex-row">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/java.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Java</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/spring_boot.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Spring Boot</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/javascript.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Javascript</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/typescript.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Typescript</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/vue-icon.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Vue JS</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/express.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Express JS</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/python.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Python</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/flask.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Flask</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/git_icon.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">GIT</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Más por aprender . . .</h3>
+                  </v-sheet>
                 </li>
               </ul>
             </v-card-item>
@@ -64,10 +137,82 @@ a {
             </v-card-item>
             <v-card-item>
               <ul>
-                <li v-for="(item, index) in familiar" :key="index" class="d-flex align-center flex-row mt-4">
-                  <v-img class="me-3" max-height="40" src="./assets/Flag_of_the_United_Kingdom.png"></v-img>
-                  <v-img class="me-3" max-width="40" :src="item.icon"></v-img>
-                  <h3 class="paragraph">{{ item.text }}</h3>
+                <li class="d-flex flex-row">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/docker.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Docker</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/ubuntu.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">GNU/LINUX Ubuntu</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/pandas.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Análisis de datos con Pandas</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/power-bi.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Power BI</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/selenium.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Selenium</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/scrapy.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Scrapy</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/solidity.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Solidity</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/microservice.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Microservicios</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/Flag_of_the_United_Kingdom.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Intermediate English level</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Más por aprender . . .</h3>
+                  </v-sheet>
                 </li>
               </ul>
             </v-card-item>
@@ -184,12 +329,12 @@ a {
 
             <v-card-text>
               <form>
-                <v-text-field v-model="initialState.name" :counter="10" label="Nombre" required ></v-text-field>
+                <v-text-field v-model="initialState.name" :counter="10" label="Nombre" required></v-text-field>
 
                 <v-text-field v-model="initialState.email" label="E-mail" required>
                 </v-text-field>
 
-                <v-textarea label="Mensaje" required v-model="initialState.message" :counter="10" >
+                <v-textarea label="Mensaje" required v-model="initialState.message" :counter="10">
                 </v-textarea>
 
                 <div class="mt-2">
