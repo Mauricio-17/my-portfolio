@@ -120,11 +120,11 @@ a {
               </v-img>
             </v-card-item>
             <v-card-actions>
-              <v-img class="ms-5" src="./src/assets/docker.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./src/assets/spring_boot.png" max-width="35"></v-img>
-              <v-img class="ms-5" src="./src/assets/java.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./src/assets/vue-icon.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./src/assets/javascript.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/docker.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/spring_boot.png" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/java.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/vue-icon.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/javascript.png" alt="Docker" max-width="35"></v-img>
             </v-card-actions>
           </v-card>
 
@@ -142,11 +142,11 @@ a {
               </v-img>
             </v-card-item>
             <v-card-actions>
-              <v-img class="ms-5" src="./src/assets/nodejs.png" max-width="35"></v-img>
-              <v-img class="ms-5" src="./src/assets/express.png" max-width="35"></v-img>
-              <v-img class="ms-5" src="./src/assets/MongoDBAtlas.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./src/assets/vue-icon.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./src/assets/javascript.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/nodejs.png" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/express.png" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/MongoDBAtlas.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/vue-icon.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/javascript.png" alt="Docker" max-width="35"></v-img>
             </v-card-actions>
           </v-card>
 
@@ -161,9 +161,9 @@ a {
 
             </v-card-item>
             <v-card-actions>
-              <v-img class="ms-5" src="./src/assets/scrapy.png" max-width="55" alt="Scrapy"></v-img>
-              <v-img class="ms-5" src="./src/assets/anaconda-py.png" max-width="35" alt="Anaconda"></v-img>
-              <v-img class="ms-5" src="./src/assets/python.png" alt="Python" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/scrapy.png" max-width="55" alt="Scrapy"></v-img>
+              <v-img class="ms-5" src="./assets/anaconda-py.png" max-width="35" alt="Anaconda"></v-img>
+              <v-img class="ms-5" src="./assets/python.png" alt="Python" max-width="35"></v-img>
             </v-card-actions>
           </v-card>
         </div>
@@ -261,28 +261,28 @@ import { email, required } from '@vuelidate/validators';
 
 
 const familiar = [
-  { text: "Docker", icon: "./src/assets/docker.png" },
-  { text: "GNU/LINUX Ubuntu", icon: "./src/assets/ubuntu.png" },
-  { text: "Análisis de datos con Pandas", icon: "./src/assets/pandas.png" },
-  { text: "Power BI", icon: "./src/assets/power-bi.png" },
-  { text: "Selenium", icon: "./src/assets/selenium.png" },
-  { text: "Scrapy", icon: "./src/assets/scrapy.png" },
-  { text: "Solidity", icon: "./src/assets/solidity.png" },
-  { text: "Microservices", icon: "./src/assets/microservice.png" },
-  { text: "Intermediate English level", icon: "./src/assets/Flag_of_the_United_Kingdom.png" },
+  { text: "Docker", icon: "./assets/docker.png" },
+  { text: "GNU/LINUX Ubuntu", icon: "./assets/ubuntu.png" },
+  { text: "Análisis de datos con Pandas", icon: "./assets/pandas.png" },
+  { text: "Power BI", icon: "./assets/power-bi.png" },
+  { text: "Selenium", icon: "./assets/selenium.png" },
+  { text: "Scrapy", icon: "./assets/scrapy.png" },
+  { text: "Solidity", icon: "./assets/solidity.png" },
+  { text: "Microservices", icon: "./assets/microservice.png" },
+  { text: "Intermediate English level", icon: "./assets/Flag_of_the_United_Kingdom.png" },
   { text: "Más por aprender . . .", icon: "none" }
 ];
 
 const used = [
-  { text: "Java", icon: "./src/assets/java.png" },
-  { text: "Spring Boot", icon: "./src/assets/spring_boot.png" },
-  { text: "Javascript", icon: "./src/assets/javascript.png" },
-  { text: "Typescript", icon: "./src/assets/typescript.png" },
-  { text: "Vue JS", icon: "./src/assets/vue-icon.png" },
-  { text: "Express JS", icon: "./src/assets/express.png" },
-  { text: "Python", icon: "./src/assets/python.png" },
-  { text: "Flask", icon: "./src/assets/flask.png" },
-  { text: "GIT", icon: "./src/assets/git_icon.png" },
+  { text: "Java", icon: "./assets/java.png" },
+  { text: "Spring Boot", icon: "./assets/spring_boot.png" },
+  { text: "Javascript", icon: "./assets/javascript.png" },
+  { text: "Typescript", icon: "./assets/typescript.png" },
+  { text: "Vue JS", icon: "./assets/vue-icon.png" },
+  { text: "Express JS", icon: "./assets/express.png" },
+  { text: "Python", icon: "./assets/python.png" },
+  { text: "Flask", icon: "./assets/flask.png" },
+  { text: "GIT", icon: "./assets/git_icon.png" },
   { text: "Más por aprender . . .", icon: "none" }
 ]
 
