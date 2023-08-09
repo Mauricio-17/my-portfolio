@@ -28,8 +28,8 @@ a {
           <h1 class="title text-deep-purple-accent-4  mt-5 mb-5 ">MAURICIO SOLIS</h1>
           <v-card min-width="350" max-width="600" :class="marginTotal" color="blue-lighten-2">
             <v-card-item>
-              <h2 class="text-red-darken-3">Desarrollador WEB y
-                analista de datos</h2>
+              <h2 class="text-red-darken-3">Desarrollador WEB,
+                analista de datos y estudiante</h2>
             </v-card-item>
             <v-card-text>
               <h2 class="text-red-lighten-1  paragraph">
@@ -438,7 +438,6 @@ a {
 </template>
 
 <script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
 import { ref, Ref } from 'vue';
 import emailjs from '@emailjs/browser';
 
