@@ -32,13 +32,13 @@ a {
                 analista de datos</h2>
             </v-card-item>
             <v-card-text>
-              <h3 class="text-red-lighten-1  paragraph">
+              <h2 class="text-red-lighten-1  paragraph">
                 Programador y entusiasta de la informática con 3+ años involucrado en el desarrollo de Software
                 especialmente
                 en entornos WEB, dispuesto a prender más de otros profesionales como a colaborar en el aprendizaje de
                 otros.
                 Soy desarrollador fullstack orientado más en backend, mayor info en la parte de abajo...
-              </h3>
+              </h2>
             </v-card-text>
           </v-card>
 
@@ -95,6 +95,14 @@ a {
                   </v-sheet>
                   <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
                     <h3 class="paragraph">Express JS</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/mysql.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">MySQL</h3>
                   </v-sheet>
                 </li>
                 <li class="d-flex flex-row ">
@@ -171,6 +179,22 @@ a {
                 </li>
                 <li class="d-flex flex-row ">
                   <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/postgre.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">PostgreSQL</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/sqlserver.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">SQL-Server</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
                     <v-img min-width="45" src="./assets/selenium.png"></v-img>
                   </v-sheet>
                   <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
@@ -187,7 +211,23 @@ a {
                 </li>
                 <li class="d-flex flex-row ">
                   <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
-                    <v-img min-width="45" src="./assets/solidity.png"></v-img>
+                    <v-img min-width="45" src="./assets/tensorflow.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Tensorflow</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/blockchain.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Blockchain</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" max-height="50" src="./assets/solidity.png"></v-img>
                   </v-sheet>
                   <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
                     <h3 class="paragraph">Solidity</h3>
@@ -227,24 +267,24 @@ a {
               </v-card-title>
             </v-card-item>
             <v-card-text>
-              <h3 class="mt-2 text-teal-accent-1 paragraph"> Nacido en el 2000, y orientado a llevar un estilo de
+              <h2 class="mt-2 text-teal-accent-1 paragraph"> Nacido en el 2000, y orientado a llevar un estilo de
                 vida balanceada, busco aprender más de
                 las personas
                 así como colaborar en su aprendizaje. Siempre busco retener buenas cosas en todas mis experiencias.
-              </h3>
-              <h3 class="mt-2 text-teal-accent-1 paragraph">
+              </h2>
+              <h2 class="mt-2 text-teal-accent-1 paragraph">
                 En lo personal práctico el futbol y me gusta salir a pasear y mejorar mi inglés como parte de mi Hobby.
                 Desde muy joven estoy interesado en temas de la informática (no solamente en el desarrollo de SW) por lo
                 que
-                podría abrirme facilmente a otras ramas de IT.
+                podría abrirme facilmente a otras ramas de IT, es por ello que me considero un "libro abierto" en este campo de la ciencia.
 
-              </h3>
-              <h3 class="mt-2 text-teal-accent-1 paragraph">Actualmente estoy enfocado en el desarrollo WEB,
+              </h2>
+              <h2 class="mt-2 text-teal-accent-1 paragraph">Actualmente estoy enfocado en el desarrollo WEB,
                 aunque con un poco de práctica a la vez en
                 el Análisis de
                 datos con Python.
                 Además me encuentro investigando acerca de la tecnología Blockchain como parte de mi proyecto para
-                sustentación de tesis universitaria.</h3>
+                sustentación de tesis universitaria.</h2>
             </v-card-text>
           </v-card>
         </div>
@@ -268,9 +308,10 @@ a {
             <v-card-actions>
               <v-img class="ms-5" src="./assets/docker.png" alt="Docker" max-width="35"></v-img>
               <v-img class="ms-5" src="./assets/spring_boot.png" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/java.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/vue-icon.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/javascript.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/java.png" alt="Java" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/vue-icon.png" alt="Vue" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/javascript.png" alt="Javascript" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/mysql.png" alt="MySQL" max-width="35"></v-img>
             </v-card-actions>
           </v-card>
 
@@ -406,31 +447,6 @@ import { useVuelidate } from '@vuelidate/core';
 import { email, required } from '@vuelidate/validators';
 
 
-const familiar = [
-  { text: "Docker", icon: "./assets/docker.png" },
-  { text: "GNU/LINUX Ubuntu", icon: "./assets/ubuntu.png" },
-  { text: "Análisis de datos con Pandas", icon: "./assets/pandas.png" },
-  { text: "Power BI", icon: "./assets/power-bi.png" },
-  { text: "Selenium", icon: "./assets/selenium.png" },
-  { text: "Scrapy", icon: "./assets/scrapy.png" },
-  { text: "Solidity", icon: "./assets/solidity.png" },
-  { text: "Microservices", icon: "./assets/microservice.png" },
-  { text: "Intermediate English level", icon: "./assets/Flag_of_the_United_Kingdom.png" },
-  { text: "Más por aprender . . .", icon: "none" }
-];
-
-const used = [
-  { text: "Java", icon: "./assets/java.png" },
-  { text: "Spring Boot", icon: "./assets/spring_boot.png" },
-  { text: "Javascript", icon: "./assets/javascript.png" },
-  { text: "Typescript", icon: "./assets/typescript.png" },
-  { text: "Vue JS", icon: "./assets/vue-icon.png" },
-  { text: "Express JS", icon: "./assets/express.png" },
-  { text: "Python", icon: "./assets/python.png" },
-  { text: "Flask", icon: "./assets/flask.png" },
-  { text: "GIT", icon: "./assets/git_icon.png" },
-  { text: "Más por aprender . . .", icon: "none" }
-]
 
 const aligningCenter: string = "d-flex align-center flex-column";
 
