@@ -65,6 +65,7 @@ a {
             <v-card-item>
               <ul>
                 <li v-for="(item, index) in familiar" :key="index" class="d-flex align-center flex-row mt-4">
+                  <v-img class="me-3" max-height="40" src="./assets/Flag_of_the_United_Kingdom.png"></v-img>
                   <v-img class="me-3" max-width="40" :src="item.icon"></v-img>
                   <h3 class="paragraph">{{ item.text }}</h3>
                 </li>
