@@ -33,10 +33,9 @@ a {
             </v-card-item>
             <v-card-text>
               <h2 class="text-red-lighten-1  paragraph">
-                Programador y entusiasta de la informática con 3+ años involucrado en el desarrollo de Software
+                Programador, autodidacta y entusiasta de la informática con 3+ años involucrado en el desarrollo de Software
                 especialmente
-                en entornos WEB, dispuesto a prender más de otros profesionales como a colaborar en el aprendizaje de
-                otros.
+                en entornos WEB, dispuesto a prender más de otros profesionales como a colaborar en el aprendizaje del resto, además de dar todo de sí por quienes apuesten por mi profesionalismo.
                 Soy desarrollador fullstack orientado más en backend, mayor info en la parte de abajo...
               </h2>
             </v-card-text>
