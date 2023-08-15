@@ -300,7 +300,7 @@ a {
               </v-card-title>
             </v-card-item>
             <v-card-item>
-              <p><a href="https://github.com/Mauricio-17/inventory-system" target="_blank">Link del repositorio en GitHub</a></p>
+              <p><a href="https://github.com/Mauricio-17/inventory-system" target="_blank">Ver código</a></p>
               <p><a href="https://inventory-container.onrender.com/" target="_blank">Ver demostración</a></p>
               <v-img src="./assets/snapshot_inventory.png">
               </v-img>
@@ -322,8 +322,7 @@ a {
               </v-card-title>
             </v-card-item>
             <v-card-item>
-              <p><a href="https://github.com/Mauricio-17/vet-sys-MEVN-stack" target="_blank">Link del repositorio en
-                  GitHub</a></p>
+              <p><a href="https://github.com/Mauricio-17/vet-sys-fullstack-typescript" target="_blank">Ver código</a></p>
               <p><a href="https://vet-sys.onrender.com" target="_blank">Ver demostración</a></p>
               <v-img src="./assets/vetsys_snapshot.png">
               </v-img>
@@ -331,9 +330,9 @@ a {
             <v-card-actions>
               <v-img class="ms-5" src="./assets/nodejs.png" max-width="35"></v-img>
               <v-img class="ms-5" src="./assets/express.png" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/MongoDBAtlas.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/vue-icon.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/javascript.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/MongoDBAtlas.png" alt="MongoDB" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/vue-icon.png" alt="Vue" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/typescript.png" alt="Typescript" max-width="35"></v-img>
             </v-card-actions>
           </v-card>
 
@@ -342,9 +341,7 @@ a {
               <h2 class="text-cyan-darken-4">Web Scraping a la website Audible.com con Scrapy</h2>
             </v-card-item>
             <v-card-item>
-              <p><a href="https://github.com/Mauricio-17/WebScraping-Scrapy-AudiblePage" target="_blank">Link del
-                  repositorio en
-                  GitHub</a></p>
+              <p><a href="https://github.com/Mauricio-17/WebScraping-Scrapy-AudiblePage" target="_blank">Ver código</a></p>
 
             </v-card-item>
             <v-card-actions>
