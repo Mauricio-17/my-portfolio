@@ -40,7 +40,9 @@ a {
               </h2>
             </v-card-text>
           </v-card>
-
+          <h3 class="text-blue-accent-4">
+            <a href="https://drive.google.com/drive/folders/1Wx_42hyXnLBjrUEORd2sU8gI88G99B3n?usp=sharing" target="_blank_">Link de Archivos de certificados</a>
+          </h3>
           <v-card min-width="350" max-width="600" color="blue-lighten-2" :class="marginTotal">
             <v-card-item>
               <h3 class="text-indigo-accent-4">Aquí esta una pequeña lista de las conceptos y tecnologías que mayormente
@@ -349,6 +351,7 @@ a {
               <v-img class="ms-5" src="./assets/python.png" alt="Python" max-width="35"></v-img>
             </v-card-actions>
           </v-card>
+
         </div>
 
         <h4 class="text-light-blue-darken-1 d-flex flex-column align-center mt-4">Más proyectos en mi <a
