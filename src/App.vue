@@ -303,6 +303,7 @@ a {
             </v-card-item>
             <v-card-item>
               <p><a href="https://github.com/Mauricio-17/inventory-system" target="_blank">Ver código</a></p>
+              <!--
               <p><a href="https://inventory-container.onrender.com/" target="_blank">Ver demostración</a></p>
               -->
               <v-img src="./assets/snapshot_inventory.png">
