@@ -140,7 +140,8 @@ a {
 
           <v-card min-width="350" max-width="600" color="blue-lighten-2" :class="marginTotal">
             <v-card-item>
-              <h3 class="text-indigo-accent-4">Aquí otra lista de tecnologías y conceptos de las que estoy familiarizado.
+              <h3 class="text-indigo-accent-4">
+              Aquí otra lista de tecnologías y conceptos de las que estoy familiarizado.
               </h3>
             </v-card-item>
             <v-card-item>
@@ -301,7 +302,9 @@ a {
             </v-card-item>
             <v-card-item>
               <p><a href="https://inventory-container.onrender.com" target="_blank">Link del repositorio en GitHub</a></p>
+              <!--
               <p><a href="https://inventory-container.onrender.com/" target="_blank">Ver demostración</a></p>
+              -->
               <v-img src="./assets/snapshot_inventory.png">
               </v-img>
             </v-card-item>
@@ -324,6 +327,7 @@ a {
             <v-card-item>
               <p><a href="https://github.com/Mauricio-17/vet-sys-MEVN-stack" target="_blank">Link del repositorio en
                   GitHub</a></p>
+              
               <p><a href="https://vet-sys.onrender.com" target="_blank">Ver demostración</a></p>
               <v-img src="./assets/vetsys_snapshot.png">
               </v-img>
