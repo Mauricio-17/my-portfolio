@@ -33,15 +33,16 @@ a {
             </v-card-item>
             <v-card-text>
               <h2 class="text-red-lighten-1  paragraph">
-                Programador y entusiasta de la informática con 3+ años involucrado en el desarrollo de Software
+                Programador, autodidacta y entusiasta de la informática con 3+ años involucrado en el desarrollo de Software
                 especialmente
-                en entornos WEB, dispuesto a prender más de otros profesionales como a colaborar en el aprendizaje de
-                otros.
+                en entornos WEB, dispuesto a prender más de otros profesionales como a colaborar en el aprendizaje del resto, además de dar todo de sí por quienes apuesten por mi profesionalismo.
                 Soy desarrollador fullstack orientado más en backend, mayor info en la parte de abajo...
               </h2>
             </v-card-text>
           </v-card>
-
+          <h3 class="text-blue-accent-4">
+            <a href="https://drive.google.com/drive/folders/1Wx_42hyXnLBjrUEORd2sU8gI88G99B3n?usp=sharing" target="_blank_">Link de Archivos de certificados</a>
+          </h3>
           <v-card min-width="350" max-width="600" color="blue-lighten-2" :class="marginTotal">
             <v-card-item>
               <h3 class="text-indigo-accent-4">Aquí esta una pequeña lista de las conceptos y tecnologías que mayormente
@@ -301,8 +302,7 @@ a {
               </v-card-title>
             </v-card-item>
             <v-card-item>
-              <p><a href="https://inventory-container.onrender.com" target="_blank">Link del repositorio en GitHub</a></p>
-              <!--
+              <p><a href="https://github.com/Mauricio-17/inventory-system" target="_blank">Ver código</a></p>
               <p><a href="https://inventory-container.onrender.com/" target="_blank">Ver demostración</a></p>
               -->
               <v-img src="./assets/snapshot_inventory.png">
@@ -325,9 +325,7 @@ a {
               </v-card-title>
             </v-card-item>
             <v-card-item>
-              <p><a href="https://github.com/Mauricio-17/vet-sys-MEVN-stack" target="_blank">Link del repositorio en
-                  GitHub</a></p>
-              
+              <p><a href="https://github.com/Mauricio-17/vet-sys-fullstack-typescript" target="_blank">Ver código</a></p>
               <p><a href="https://vet-sys.onrender.com" target="_blank">Ver demostración</a></p>
               <v-img src="./assets/vetsys_snapshot.png">
               </v-img>
@@ -335,9 +333,9 @@ a {
             <v-card-actions>
               <v-img class="ms-5" src="./assets/nodejs.png" max-width="35"></v-img>
               <v-img class="ms-5" src="./assets/express.png" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/MongoDBAtlas.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/vue-icon.png" alt="Docker" max-width="35"></v-img>
-              <v-img class="ms-5" src="./assets/javascript.png" alt="Docker" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/MongoDBAtlas.png" alt="MongoDB" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/vue-icon.png" alt="Vue" max-width="35"></v-img>
+              <v-img class="ms-5" src="./assets/typescript.png" alt="Typescript" max-width="35"></v-img>
             </v-card-actions>
           </v-card>
 
@@ -346,9 +344,7 @@ a {
               <h2 class="text-cyan-darken-4">Web Scraping a la website Audible.com con Scrapy</h2>
             </v-card-item>
             <v-card-item>
-              <p><a href="https://github.com/Mauricio-17/WebScraping-Scrapy-AudiblePage" target="_blank">Link del
-                  repositorio en
-                  GitHub</a></p>
+              <p><a href="https://github.com/Mauricio-17/WebScraping-Scrapy-AudiblePage" target="_blank">Ver código</a></p>
 
             </v-card-item>
             <v-card-actions>
@@ -357,6 +353,7 @@ a {
               <v-img class="ms-5" src="./assets/python.png" alt="Python" max-width="35"></v-img>
             </v-card-actions>
           </v-card>
+
         </div>
 
         <h4 class="text-light-blue-darken-1 d-flex flex-column align-center mt-4">Más proyectos en mi <a
