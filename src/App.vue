@@ -82,14 +82,7 @@ a {
                     <h3 class="paragraph">Typescript</h3>
                   </v-sheet>
                 </li>
-                <li class="d-flex flex-row ">
-                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
-                    <v-img min-width="45" src="./assets/vue-icon.png"></v-img>
-                  </v-sheet>
-                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
-                    <h3 class="paragraph">Vue JS</h3>
-                  </v-sheet>
-                </li>
+                
                 <li class="d-flex flex-row ">
                   <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
                     <v-img min-width="45" src="./assets/express.png"></v-img>
@@ -114,14 +107,7 @@ a {
                     <h3 class="paragraph">Python</h3>
                   </v-sheet>
                 </li>
-                <li class="d-flex flex-row ">
-                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
-                    <v-img min-width="45" src="./assets/flask.png"></v-img>
-                  </v-sheet>
-                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
-                    <h3 class="paragraph">Flask</h3>
-                  </v-sheet>
-                </li>
+
                 <li class="d-flex flex-row ">
                   <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
                     <v-img min-width="45" src="./assets/git_icon.png"></v-img>
@@ -173,10 +159,34 @@ a {
                 </li>
                 <li class="d-flex flex-row ">
                   <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/flask.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Flask</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
                     <v-img min-width="45" src="./assets/power-bi.png"></v-img>
                   </v-sheet>
                   <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
                     <h3 class="paragraph">Power BI</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/vue-icon.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Vue JS</h3>
+                  </v-sheet>
+                </li>
+                <li class="d-flex flex-row ">
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <v-img min-width="45" src="./assets/angular_icon.png"></v-img>
+                  </v-sheet>
+                  <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
+                    <h3 class="paragraph">Angular</h3>
                   </v-sheet>
                 </li>
                 <li class="d-flex flex-row ">
