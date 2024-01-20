@@ -14,6 +14,19 @@ a {
 .paragraph {
   font-family: 'Crimson Text', serif;
 }
+
+.main-list{
+  display: flex;
+  flex-direction: horizontal;
+  flex-wrap: wrap;
+}
+
+.secondary-list{
+  display: flex;
+  flex-direction: horizontal;
+  flex-wrap: wrap;
+}
+
 </style>
 
 <template>
@@ -43,13 +56,14 @@ a {
           <h3 class="text-blue-accent-4">
             <a href="https://drive.google.com/drive/folders/1Wx_42hyXnLBjrUEORd2sU8gI88G99B3n?usp=sharing" target="_blank_">Link de Archivos de certificados</a>
           </h3>
-          <v-card min-width="350" max-width="600" color="blue-lighten-2" :class="marginTotal">
+          <v-card 
+          min-width="350" max-width="600" color="blue-lighten-2" :class="marginTotal">
             <v-card-item>
               <h3 class="text-indigo-accent-4">Aquí esta una pequeña lista de las conceptos y tecnologías que mayormente
                 uso:</h3>
             </v-card-item>
             <v-card-item>
-              <ul>
+              <ul class="main-list" >
                 <li class="d-flex flex-row">
                   <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
                     <v-img min-width="45" src="./assets/java.png"></v-img>
@@ -132,7 +146,7 @@ a {
               </h3>
             </v-card-item>
             <v-card-item>
-              <ul>
+              <ul class="main-list">
                 <li class="d-flex flex-row">
                   <v-sheet class="ma-2 pa-2 bg-blue-lighten-2">
                     <v-img min-width="45" src="./assets/docker.png"></v-img>
